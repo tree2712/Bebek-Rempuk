@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Slideshow Centered</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<div class="slideshow-wrapper">
+  <div class="slideshow-container" id="slideshow">
+    <div class="click-left" onclick="plusSlides(-1)"></div>
+    <div class="click-right" onclick="plusSlides(1)"></div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">1 / 6</div>
+      <img src="1.png" alt="Menu 1">
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">2 / 6</div>
+      <img src="2.png" alt="Menu 2">
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">3 / 6</div>
+      <img src="3.png" alt="Menu 3">
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">4 / 6</div>
+      <img src="4.png" alt="Menu 4">
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">5 / 6</div>
+      <img src="5.png" alt="Menu 5">
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">6 / 6</div>
+      <img src="6.png" alt="Menu 6">
+    </div>
+
+    <a class="prev" onclick="plusSlides(-1)">❮</a>
+    <a class="next" onclick="plusSlides(1)">❯</a>
+  </div>
+
+  <div class="dot-container">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+    <span class="dot" onclick="currentSlide(4)"></span>
+    <span class="dot" onclick="currentSlide(5)"></span>
+    <span class="dot" onclick="currentSlide(6)"></span>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
